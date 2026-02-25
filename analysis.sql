@@ -28,3 +28,13 @@ SELECT
     Group by RASSE1
     Order by breed_count DESC
     Limit 5
+
+-- Query 4. What is the gender distribution of dogs?
+
+SELECT 
+    GESCHLECHT,
+    COUNT (*) as gender_distr
+    FROM `project-5006f1dd-9c5e-4f54-99e.dog_analysis.dogs_zurich`
+    Where GESCHLECHT is not null
+    Group by GESCHLECHT
+    Order by gender_distr DESC 
