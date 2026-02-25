@@ -20,7 +20,16 @@ The dataset contains official dog registration records from Zurich.
 
  ## Key Findings
 - The dataset contains 12 unique districts.
-- Further insights can be found in the SQL queries inside `analysis.sql`.
-
+- The dataset contains 301 unique dog breeds. The 5 most popular breeds are:
+- Mischling klein — 652 dogs
+- Chihuahua — 495 dogs
+- Labrador Retriever — 446 dogs
+- Jack Russell Terrier — 298 dogs
+- Yorkshire Terrier — 280 dogs
+- The gender distribution of registered dogs is as follows:
+- Female (w) — 4,782 dogs
+- Male (m) — 2,198 dogs
+Female dogs represent approximately 69% of the total population, while male dogs account for about 31%.
+ 
 ## Files
 - `analysis.sql` — contains all SQL queries used in the analysis.
