@@ -27,3 +27,4 @@ SELECT
     Where RASSE1 is not null
     Group by RASSE1
     Order by breed_count DESC
+    Limit 5
